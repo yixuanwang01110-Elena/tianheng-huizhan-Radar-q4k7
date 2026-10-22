@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="robots" content="noindex,nofollow">
+<title>天衡智能 · 2026 参会日历</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ambient" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+<header class="bar glass" id="bar">
+  <a class="brand" href="?region=mainland"><span class="mark">天衡</span><span class="brand-t">参会日历<small>2026 · EVENT RADAR</small></span></a>
+  <div class="seg" id="regionSeg" role="tablist" aria-label="地区"><span class="thumb"></span><a href="?region=mainland" data-region="中国大陆" role="tab">中国大陆</a><a href="?region=taiwan" data-region="台湾" role="tab">台湾</a></div>
+  <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索活动、主办方、城市" aria-label="搜索"></label>
+  <span class="asof" id="asof">资料截至 2026.10.21</span>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-t"><p class="eyebrow" id="regionLabel">中国大陆</p><h1>2026 活动日历</h1></div>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section class="block" id="soonBlock">
+    <div class="block-h"><h2>报名倒计时</h2><span class="sub">只列出「页面写明了截止日」的活动；其余活动的报名方式见下方「截止信息」标签</span></div>
+    <div class="soon" id="soon"></div>
+    <p class="dl-sum" id="dlSummary"></p>
+  </section>
+
+  <section class="block">
+    <div class="cal-layout">
+      <div class="cal glass">
+        <div class="cal-top">
+          <div class="nav"><button id="prev" aria-label="上个月">‹</button><h2 id="monthTitle"></h2><button id="next" aria-label="下个月">›</button><button id="today" class="pill">今天</button></div>
+          <div class="seg small" id="viewSeg"><span class="thumb"></span><button data-view="month" class="on">月历</button><button data-view="year">全年</button></div>
+        </div>
+        <div class="legend" aria-label="图例">
+          <span><i class="sw t-flag"></i>旗舰大会</span><span><i class="sw t-sum"></i>行业峰会</span><span><i class="sw t-small"></i>小型交流</span>
+          <span class="gap"></span><span><i class="dot ok"></i>可报名</span><span><i class="dot ask"></i>需申请/待确认</span><span><i class="dot off"></i>已结束/已截止</span>
+        </div>
+        <div class="rail" id="monthRail"></div>
+        <div id="monthView"><div class="weekdays"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div><div id="calendar" class="grid"></div></div>
+        <div id="yearView" class="year" hidden></div>
+        <p class="cap" id="calendarCaption" aria-live="polite"></p>
+      </div>
+      <aside class="daypanel glass" id="dayPanel" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section class="filters glass" aria-label="筛选" id="filters" style="margin-bottom:22px">
+    <div class="frow"><span class="flabel">城市</span><div class="chips" id="cities"></div></div>
+    <div class="frow"><span class="flabel">规模</span><div class="chips" id="tiers"></div></div>
+    <div class="frow"><span class="flabel">去的目的</span><div class="chips" id="purposes"></div></div>
+    <div class="frow"><span class="flabel">报名状态</span><div class="chips" id="regs"></div></div>
+    <div class="frow"><span class="flabel">截止信息</span><div class="chips" id="dls"></div>
+      <label class="check"><input type="checkbox" id="onlySaved">只看我的关注</label><button id="reset" class="link">清除筛选</button></div>
+  </section>
+
+  <section class="block" id="details">
+    <div class="block-h"><h2 id="listTitle">活动详情</h2>
+      <div class="ctl"><select id="listScope" aria-label="详情范围"><option value="month">当前月份</option><option value="upcoming">今天起全部</option><option value="year">全年已定会期</option><option value="past">往期回顾</option><option value="pending">待确认线索</option></select></div></div>
+    <p class="sub" id="listCaption" aria-live="polite"></p>
+    <div class="list" id="eventList"></div>
+  </section>
+
+  <details class="how glass"><summary>怎么看颜色、主次、截止信息与可信度</summary><div class="how-g">
+    <div><h3>颜色 = 规模层级</h3><p>蓝：官方或头部品牌的旗舰大会，适合专程去学。青：行业/技术峰会。琥珀：小型交流，目的见卡片标签（去学习 / 去结识人脉 / 去借鉴办会）。</p></div>
+    <div><h3>主次 = 举办连续性</h3><p>「年度品牌」背后有稳定主办方、往年都办；「系列活动」是同一社群连续办；「首届/单场」没有往年证据。没有证据不等于只办一次，连续也不代表明年一定办。</p></div>
+    <div><h3>截止信息 = 六种情况</h3><p>有截止日（页面写明）· 滚动报名（页面确认没有截止日，售完即止）· 免费入场（无需报名）· 申请制（填表，主办方审核通过即可，有名额限制）· 邀请制（没有被邀请进不去）· 未查到（官方页读不到，不代表没有截止）。</p></div>
+    <div><h3>不确定就不排日历</h3><p>会期不明、滚动报名、只有展示窗口的活动放在「待确认线索」。价格未公开就写未公开，不按免费处理。往期活动是回顾，不代表团队参加过。</p></div></div></details>
+
+  <footer><span>天衡智能 · 独立会议观察台 · 精选资料，非完整名录</span><span><a href="events.json" download>下载含来源的活动数据</a></span></footer>
+</main>
+
+<dialog id="detailDialog" aria-label="活动档案"><div class="d-bar"><span>活动档案</span><button id="closeDialog" aria-label="关闭">×</button></div><div id="dialogContent"></div></dialog>
+<div id="toast" role="status"></div>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
