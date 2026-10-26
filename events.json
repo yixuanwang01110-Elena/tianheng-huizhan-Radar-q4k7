@@ -3508,7 +3508,7 @@
       "deadline": "无总截止；早鸟票至11/1，一般票至11/8，11/9起晚鸟票",
       "price": "早鸟单人NT$900／双人NT$1,400（至11/1）；一般票单人NT$1,000／双人NT$1,600（至11/8）；晚鸟单人NT$1,380／双人NT$2,000（11/9起）",
       "checked": "2026-10-26",
-      "verification": "页面未能复核",
+      "verification": "本轮平台核实",
       "id": "tw-ai-parliament-2026",
       "name": "第二届 AI 末日议会",
       "city": "台北",
@@ -3519,7 +3519,7 @@
       "relevance": "研究判断：适合参考非技术人群也能参与的 AI 社群活动，重点是办会与人脉，不是技术课程。",
       "observe": "观察世界观、分区议题、自由流动、投票收尾与赞助福利的体验设计。",
       "url": "https://www.accupass.com/event/2610071412414608839870",
-      "dateEvidence": "日期来自ACCUPASS搜索索引；本轮复核时活动页只返回导航，无法确认，购票前请先打开原页核对。",
+      "dateEvidence": "2026-10-26 用浏览器渲染ACCUPASS活动页，页面明确2026.11.14（Sat）13:30—17:00及地址。",
       "sources": [
         {
           "title": "AI 思辨派对 ACCUPASS 主办页",
@@ -3527,7 +3527,7 @@
         }
       ],
       "cadence": "系列活动",
-      "regState": "待确认",
+      "regState": "开放",
       "regClose": null,
       "regCloseLabel": "",
       "dateHint": null,
