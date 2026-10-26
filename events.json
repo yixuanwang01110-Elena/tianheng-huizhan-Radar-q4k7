@@ -2949,11 +2949,11 @@
       "regNote": "无公开总截止；早鸟价11/3截止，11/1 09:00后不可退款",
       "kindOld": "行业峰会",
       "heat": 3,
-      "heatEvidence": "活动行主活动页浏览8325、收藏153；主办方白鲸出海粉丝13万余、举办活动659场，获活动行2025年度卓越口碑主办方；未查媒体报道",
-      "people": null,
-      "peopleBasis": "页面未公布规模",
-      "gradeScore": 6,
-      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期2天1分 = 6分 → 行业峰会"
+      "heatEvidence": "活动行主活动页浏览8325、收藏153；主办方白鲸出海粉丝13万余、举办活动659场；往届上海站1.4万观众、深圳站称2.5万观众，均为主办方自家媒体稿，未查到第三方媒体报道（2026-10-26补查）https://www.baijing.cn/article/54753",
+      "people": 14000,
+      "peopleBasis": "往届参考：白鲸出海会后稿称GTC2025上海站现场观众超1.4万、总人次超2.4万、展商100+（主办方自报，非审计）；2026上海站页面未公布规模",
+      "gradeScore": 9,
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数约14000人3分 + 会期2天1分 = 9分 → 行业峰会；人工调整：1.4万人是主办方自报的2025上海站数据，本届未公布；主题偏出海营销与游戏，不是AI教培主场"
     },
     {
       "id": "W-20261026-tw-03",
@@ -2995,12 +2995,12 @@
       "regType": "B",
       "regNote": "无公开截止，名额有限",
       "kindOld": "小型交流",
-      "heat": 0,
-      "heatEvidence": "ACCUPASS页面未标示报名数；AIF的AI CAFÉ系列已办到第36期；未查到媒体报道",
+      "heat": 2,
+      "heatEvidence": "ACCUPASS页面浏览约400、收藏4（10/26查看）；AIF的AI CAFÉ系列已办到第36期，第35期为免费线下场、座位有限；未查到媒体报道（2026-10-26补查）",
       "people": null,
-      "peopleBasis": "页面未公布",
-      "gradeScore": 2,
-      "gradeWhy": "品牌知名2分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 2分 → 小型交流"
+      "peopleBasis": "页面未公布名额，写明名额有限",
+      "gradeScore": 4,
+      "gradeWhy": "品牌知名2分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 4分 → 小型交流"
     },
     {
       "region": "中国大陆",
@@ -3195,12 +3195,12 @@
       "regType": "E",
       "regNote": "报名入口未查到",
       "kindOld": "行业峰会",
-      "heat": 2,
-      "heatEvidence": "GDG Shanghai在SegmentFault发布；Google DevFest为全球年度品牌；本轮未查到媒体报道",
+      "heat": 3,
+      "heatEvidence": "Google DevFest为全球年度品牌，GDG Shanghai往年持续举办上海站；2025上海站回顾称1806位Builder https://segmentfault.com/e/1160000048313717 ；未查到主流媒体报道（2026-10-26补查）",
       "people": 3000,
-      "peopleBasis": "主办方预告约3000个席位（非实到）",
-      "gradeScore": 6,
-      "gradeWhy": "品牌知名2分 + 热度2/5 + 人数约3000人2分 + 会期1天0分 = 6分 → 行业峰会"
+      "peopleBasis": "主办方预告约3000个席位（非实到）；同页称2025上海站Builder 1806位（口径未说明）",
+      "gradeScore": 7,
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数约3000人2分 + 会期1天0分 = 7分 → 行业峰会"
     },
     {
       "region": "中国大陆",
@@ -3289,12 +3289,12 @@
       "regType": "D",
       "regNote": "主办审核制，名额有限",
       "kindOld": "小型交流",
-      "heat": 0,
-      "heatEvidence": "Luma页面未显示报名数；仅主办页，未查到其他报道",
+      "heat": 2,
+      "heatEvidence": "Claude Community台北系列已办到第12场，往场Luma显示20—100人报名；本场为主办审核制；未查到媒体报道（2026-10-26补查）https://luma.com/claude-taipei-7",
       "people": null,
-      "peopleBasis": "页面未公布",
-      "gradeScore": 0.5,
-      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流",
+      "peopleBasis": "本场未公布名额；同系列台北往场Luma显示约20—100人（x Product 20人、x Music 78人、Code with Claude Workshop约100人）",
+      "gradeScore": 2.5,
+      "gradeWhy": "品牌社群0.5分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 2.5分 → 小型交流",
       "reviewKind": "apply"
     },
     {
@@ -3338,7 +3338,7 @@
       "regNote": "已额满，仅可候补",
       "kindOld": "小型交流",
       "heat": 2,
-      "heatEvidence": "Luma页面显示额满并开放候补；讲者为前Cursor设计负责人",
+      "heatEvidence": "Luma页面显示额满并开放候补；讲者为前Cursor设计负责人Ryo Lu；未查到媒体报道（2026-10-26补查）",
       "people": 60,
       "peopleBasis": "Luma显示60人报名，已额满",
       "gradeScore": 2.5,
@@ -3534,12 +3534,12 @@
       "regType": "B",
       "regNote": "无总截止日；仅有票档涨价日（10/25、11/1、11/8），不是截止",
       "kindOld": "小型交流",
-      "heat": 0,
-      "heatEvidence": "搜索无任何相关结果,仅Accupass页",
-      "people": null,
-      "peopleBasis": "未查到",
-      "gradeScore": 0.5,
-      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流"
+      "heat": 2,
+      "heatEvidence": "ACCUPASS主办页有第一届回顾（近百人、投票结果与合照）；赞助商SIRAYA、协办爱语包容；搜索未见媒体报道（2026-10-26补查）https://www.accupass.com/event/2610071412414608839870",
+      "people": 200,
+      "peopleBasis": "主办方预计200位参与者（非已售票数）；第一届（2026-03-28）称近百位参与，五题投票每题约50票",
+      "gradeScore": 3.0,
+      "gradeWhy": "品牌社群0.5分 + 热度2/5 + 人数约200人0.5分 + 会期1天0分 = 3.0分 → 小型交流"
     },
     {
       "region": "台湾",
@@ -3929,9 +3929,9 @@
       "regNote": "无公开截止；退款规则按日期分段",
       "kindOld": "行业峰会",
       "heat": 2,
-      "heatEvidence": "活动行页面浏览8631、收藏100、63人报名；主办方账号粉丝1.1万、活动41场；未查到媒体报道",
+      "heatEvidence": "活动行页面浏览8631、收藏100、63人报名；主办方账号粉丝1.1万、活动41场；同名“GAIC”杭州峰会（2026-03）仅见活动聚合页，未查到上海峰会的媒体报道（2026-10-26补查）",
       "people": null,
-      "peopleBasis": "页面未公布规模；活动行显示63人报名",
+      "peopleBasis": "页面未公布规模；活动行显示63人报名（10/26），不当作规模",
       "gradeScore": 4,
       "gradeWhy": "品牌一般1分 + 热度2/5 + 人数未公开0分 + 会期2天1分 = 4分 → 小型交流"
     },
