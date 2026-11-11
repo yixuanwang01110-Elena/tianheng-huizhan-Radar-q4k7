@@ -39,13 +39,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "搜索\"航海家小红书大会/生财有术\"无任何相关报道(搜索引擎结果均不相关),社群性质,查不到。",
       "people": null,
       "peopleBasis": "未查到公开人数",
       "gradeScore": 0.5,
-      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流"
+      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "region": "台湾",
@@ -186,13 +186,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "搜索\"航海家AI大会 杭州\"未找到该活动任何报道,查不到。",
       "people": null,
       "peopleBasis": "未查到公开人数",
       "gradeScore": 0.5,
-      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流"
+      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "P-tw-01",
@@ -276,13 +276,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "搜索\"WaytoAGI无锡站 滨湖网络安全沙龙\"无直接结果,查不到;区级机关+AI社区小型沙龙。",
       "people": null,
       "peopleBasis": "未查到公开人数",
       "gradeScore": 0.5,
-      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流"
+      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "P-cn-02",
@@ -366,13 +366,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "搜索\"人工智能前沿技术沙龙 南京数字经济科技学会\"未找到该场报道,查不到。",
       "people": null,
       "peopleBasis": "未查到",
       "gradeScore": 0,
-      "gradeWhy": "品牌未知0分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0分 → 小型交流"
+      "gradeWhy": "品牌未知0分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "P-cn-04",
@@ -501,13 +501,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "搜索未找到该沙龙任何报道,查不到;省科协系统小型人才活动。",
       "people": null,
       "peopleBasis": "未查到",
       "gradeScore": 0,
-      "gradeWhy": "品牌未知0分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0分 → 小型交流"
+      "gradeWhy": "品牌未知0分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "region": "台湾",
@@ -640,13 +640,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "搜索\"生财有术 航海家 线下大课\"无相关结果,查不到。",
       "people": null,
       "peopleBasis": "未查到",
       "gradeScore": 0.5,
-      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流"
+      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "cn-baai-2026",
@@ -1036,13 +1036,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "同系列航海家线下大课均无公开报道,查不到。",
       "people": null,
       "peopleBasis": "未查到",
       "gradeScore": 0.5,
-      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流"
+      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "cn-suzhou-aiexpo-2026",
@@ -1314,13 +1314,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "旗舰大会",
       "heat": 3,
       "heatEvidence": "https://www.shifair.com/exhibitionDetails/10317.html 、中国科技网 https://m.tech.china.com/articles/20260604/202606041886236.html ;深圳市AI协会主办,区域型大展。",
       "people": null,
       "peopleBasis": "展会信息站称约8万平方米、1142家展商、观众6.19万,均为推广口径无闭幕确认",
       "gradeScore": 5.5,
-      "gradeWhy": "品牌一般1分 + 热度3/5 + 人数未公开0分 + 会期3天1.5分 = 5.5分 → 行业峰会"
+      "gradeWhy": "品牌一般1分 + 热度3/5 + 人数未公开0分 + 会期3天1.5分 = 5.5分 → 行业峰会",
+      "kindOld": "旗舰大会"
     },
     {
       "id": "P-tw-06",
@@ -1408,13 +1408,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "搜索未找到该大会报道,仅见大任智库FDE白皮书 https://www.fxbaogao.com/detail/5569522 ,大会本身查不到。",
       "people": null,
       "peopleBasis": "未查到",
       "gradeScore": 1,
-      "gradeWhy": "品牌一般1分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 1分 → 小型交流"
+      "gradeWhy": "品牌一般1分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 1分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "region": "台湾",
@@ -1592,13 +1592,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 0,
       "heatEvidence": "同系列航海家线下大课无公开报道,查不到。",
       "people": null,
       "peopleBasis": "未查到",
       "gradeScore": 0.5,
-      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流"
+      "gradeWhy": "品牌社群0.5分 + 热度0/5 + 人数未公开0分 + 会期1天0分 = 0.5分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "P-tw-09",
@@ -1970,13 +1970,13 @@
       "regCloseLabel": "",
       "regType": "B",
       "regNote": "页面无截止日；免费票报名中，上限2000",
-      "kindOld": "小型交流",
       "heat": 4,
       "heatEvidence": "第三方(jufair/shifair)展会页；活动行页浏览量27475、主办方励展华博礼品展粉丝19710 https://www.huodongxing.com/event/5874004640000；励展为头部展览商，CME为深圳老牌消费电子展",
       "people": 80000,
       "peopleBasis": "第三方展会站称预计观众6万~8万（宣传口径，展面6万㎡、展商约1200家），非官方审计",
       "gradeScore": 11.5,
-      "gradeWhy": "品牌头部3分 + 热度4/5 + 人数约80000人3分 + 会期4天1.5分 = 11.5分 → 旗舰大会"
+      "gradeWhy": "品牌头部3分 + 热度4/5 + 人数约80000人3分 + 会期4天1.5分 = 11.5分 → 旗舰大会",
+      "kindOld": "小型交流"
     },
     {
       "id": "E048",
@@ -2017,13 +2017,13 @@
       "regCloseLabel": "",
       "regType": "B",
       "regNote": "无截止日；免费票报名中，上限1000",
-      "kindOld": "小型交流",
       "heat": 3,
       "heatEvidence": "活动行页浏览量15397、点赞273 https://www.huodongxing.com/event/8873426756800；依附CME同期，自身独立讨论度有限",
       "people": 61983,
       "peopleBasis": "第三方展会列表页称观众61983人、展商1166家（宣传口径，与CME同期同场馆6万㎡）",
       "gradeScore": 10.5,
-      "gradeWhy": "品牌头部3分 + 热度3/5 + 人数约61983人3分 + 会期4天1.5分 = 10.5分 → 旗舰大会"
+      "gradeWhy": "品牌头部3分 + 热度3/5 + 人数约61983人3分 + 会期4天1.5分 = 10.5分 → 旗舰大会",
+      "kindOld": "小型交流"
     },
     {
       "id": "E049",
@@ -2062,13 +2062,13 @@
       "regState": "已截止",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 2,
       "heatEvidence": "活动行页浏览量8569，主办方致趣科技粉丝2260 https://www.huodongxing.com/event/8877918615400；搜索无媒体报道",
       "people": null,
       "peopleBasis": "页面未公布人数",
       "gradeScore": 3,
-      "gradeWhy": "品牌一般1分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流"
+      "gradeWhy": "品牌一般1分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "E044",
@@ -2107,14 +2107,14 @@
       "regState": "需申请",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 2,
       "heatEvidence": "活动行页浏览量1614，主办方ITShare粉丝9409 https://www.huodongxing.com/event/6879480630500；闭门小型",
       "people": null,
       "peopleBasis": "页面未公布人数",
       "gradeScore": 3,
       "gradeWhy": "品牌一般1分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流",
-      "reviewKind": "invite"
+      "reviewKind": "invite",
+      "kindOld": "小型交流"
     },
     {
       "id": "cn-cncc-2026",
@@ -2212,13 +2212,13 @@
       "regState": "开放",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 3,
       "heatEvidence": "活动行页浏览量16986、点赞470、北京总榜第8，主办方新榜粉丝77001 https://www.huodongxing.com/event/9877621890600；WebSearch未查到独立报道",
       "people": null,
       "peopleBasis": "页面未公布人数",
       "gradeScore": 5,
-      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期1天0分 = 5分 → 小型交流；人工调整：单场思享会，页面只见浏览量，无人数证据"
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期1天0分 = 5分 → 小型交流；人工调整：单场思享会，页面只见浏览量，无人数证据",
+      "kindOld": "小型交流"
     },
     {
       "id": "E038",
@@ -2257,14 +2257,14 @@
       "regState": "需申请",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 2,
       "heatEvidence": "活动行页浏览量3534，主办方深圳市软件行业协会粉丝2363 https://www.huodongxing.com/event/4880473989700",
       "people": 82,
       "peopleBasis": "活动行页疑似报名数82（标签未渲染，推断）",
       "gradeScore": 3,
       "gradeWhy": "品牌一般1分 + 热度2/5 + 人数约82人0分 + 会期1天0分 = 3分 → 小型交流",
-      "reviewKind": "apply"
+      "reviewKind": "apply",
+      "kindOld": "小型交流"
     },
     {
       "id": "E042",
@@ -2303,14 +2303,14 @@
       "regState": "需申请",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 3,
       "heatEvidence": "活动行页浏览量24734，主办方北京动漫游戏产业协会粉丝9007 https://www.huodongxing.com/event/5882706039000；京东场景垂直",
       "people": null,
       "peopleBasis": "页面未公布人数",
       "gradeScore": 4,
       "gradeWhy": "品牌一般1分 + 热度3/5 + 人数未公开0分 + 会期1天0分 = 4分 → 小型交流",
-      "reviewKind": "apply"
+      "reviewKind": "apply",
+      "kindOld": "小型交流"
     },
     {
       "id": "E032",
@@ -2351,13 +2351,13 @@
       "regCloseLabel": "",
       "regType": "B",
       "regNote": "无截止日；免费票报名中，名额上限800、已报712（接近满额）",
-      "kindOld": "小型交流",
       "heat": 3,
       "heatEvidence": "活动行页浏览量41769、主办方OFweek维科网粉丝84304 https://www.huodongxing.com/event/1871545635700；深圳新闻网(sznews 2026-09-30)有报道",
       "people": null,
       "peopleBasis": "活动页未公布；仅2025年同品牌展会称5万专业观众/500家企业(第三方，非本场大会)",
       "gradeScore": 5,
-      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期1天0分 = 5分 → 行业峰会"
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期1天0分 = 5分 → 行业峰会",
+      "kindOld": "小型交流"
     },
     {
       "id": "E037",
@@ -2396,13 +2396,13 @@
       "regState": "开放",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 3,
       "heatEvidence": "活动行页浏览量11686、点赞255，主办方奇赞粉丝17161，已办至第22航次 https://www.huodongxing.com/event/4879802024511",
       "people": null,
       "peopleBasis": "页面未公布人数",
       "gradeScore": 6,
-      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期2天1分 = 6分 → 小型交流；人工调整：付费培训课性质，不是公开大会"
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期2天1分 = 6分 → 小型交流；人工调整：付费培训课性质，不是公开大会",
+      "kindOld": "小型交流"
     },
     {
       "region": "中国大陆",
@@ -3444,6 +3444,53 @@
       "gradeWhy": "品牌知名2分 + 热度4/5 + 人数约350000人3分 + 会期4天1.5分 = 10.5分 → 旗舰大会"
     },
     {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-cn-07",
+      "region": "中国大陆",
+      "name": "Rebuild 重构｜2026中国企业AI大会（崔牛会）",
+      "city": "北京",
+      "venue": "北京海淀（报名后可查看详细地址）",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "kind": "行业峰会",
+      "purpose": "办会参考",
+      "priority": "按需",
+      "organizer": "崔牛会",
+      "organizerType": "社区",
+      "cadence": "待核",
+      "recurrence": "含中国企业AI大会、AI伙伴峰会、GEO增长峰会、AI硬件公开场等分场；往届未核",
+      "scale": "页面未公布规模；活动行显示358人报名",
+      "summary": "企业AI落地主题，含AI伙伴（代理商转型）、GEO增长、出海与AI硬件分场。",
+      "relevance": "研究判断：面向企业服务与渠道伙伴，与企业智能体落地相关；可参考其分场设计和渠道生态话题。",
+      "observe": "观察一场大会挂多个子峰会的票种组合。",
+      "url": "https://www.huodongxing.com/event/9879646835500",
+      "registrationUrl": "https://www.huodongxing.com/event/9879646835500",
+      "registrationStatus": "活动行显示“立即报名”；未提交报名。",
+      "deadline": "未公开",
+      "price": "CNY 0—2688（多档），支持退款",
+      "dateEvidence": "活动行正文写11/13（周五）至11/14（周六）。活动行页面顶部钟点有约7小时偏移，日期可信，钟点以主办通知为准。",
+      "sources": [
+        {
+          "title": "活动行：Rebuild 重构｜2026中国企业AI大会",
+          "url": "https://www.huodongxing.com/event/9879646835500"
+        }
+      ],
+      "verification": "本轮平台核实",
+      "regState": "开放",
+      "regType": "B",
+      "regNote": "无公开截止；距开始仅数天",
+      "kindOld": "行业峰会",
+      "heat": 2,
+      "heatEvidence": "活动行浏览约1.9万（2026-11-09查）",
+      "people": 358,
+      "peopleBasis": "活动行显示358人报名",
+      "gradeScore": 5,
+      "gradeWhy": "品牌一般1分 + 热度2/5 + 人数约358人1分 + 会期2天1分 = 5分 → 行业峰会"
+    },
+    {
       "region": "台湾",
       "end": "2026-11-13",
       "kind": "小型交流",
@@ -3542,6 +3589,155 @@
       "gradeWhy": "品牌社群0.5分 + 热度2/5 + 人数约200人0.5分 + 会期1天0分 = 3.0分 → 小型交流"
     },
     {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-tw-02",
+      "region": "台湾",
+      "name": "AI智慧城市×有感生活论坛（ASVA）",
+      "city": "台北",
+      "venue": "台北国际会议中心（TICC）201C",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "kind": "小型交流",
+      "purpose": "结识人脉",
+      "priority": "观察",
+      "organizer": "亚矽暨AI政策执行中心（ASVA）；AI物联网大联盟、TSSA协办",
+      "organizerType": "协会",
+      "cadence": "单场",
+      "recurrence": "页面未写系列",
+      "scale": "INSIDE稿写限额60人",
+      "summary": "智慧交通、灾防、医疗与生活服务的AI落地案例分享。",
+      "relevance": "研究判断：偏政策与智慧城市，和AI教培关联弱；小型场适合接触台湾AI产业联盟人脉。",
+      "observe": "观察协会小型论坛的限额与协办分工。",
+      "url": "https://www.inside.com.tw/article/42746-ASVA202611",
+      "registrationUrl": "https://www.accupass.com/go/ASVA2026",
+      "registrationStatus": "INSIDE稿有报名入口指向ACCUPASS，报名状态页面未标明；未提交报名。",
+      "deadline": "未公开",
+      "price": "未公开",
+      "dateEvidence": "INSIDE稿写2026年11月18日（三）14:00—16:30；ACCUPASS页写13:00—16:30，钟点两处不一致，日期一致。",
+      "sources": [
+        {
+          "title": "INSIDE：ASVA AI智慧城市论坛",
+          "url": "https://www.inside.com.tw/article/42746-ASVA202611"
+        },
+        {
+          "title": "ACCUPASS报名页",
+          "url": "https://www.accupass.com/go/ASVA2026"
+        }
+      ],
+      "verification": "本轮平台核实",
+      "regState": "待确认",
+      "regType": "E",
+      "regNote": "报名状态与费用未标明",
+      "kindOld": "小型交流",
+      "heat": 1,
+      "heatEvidence": "未查到报名人数与媒体报道（2026-11-09查）",
+      "people": 60,
+      "peopleBasis": "INSIDE稿写限额60人",
+      "gradeScore": 2,
+      "gradeWhy": "品牌一般1分 + 热度1/5 + 人数约60人0分 + 会期1天0分 = 2分 → 小型交流"
+    },
+    {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-cn-02",
+      "region": "中国大陆",
+      "name": "2026世界智能制造大会暨南京世界智能制造博览会（WIMC）",
+      "city": "南京",
+      "venue": "南京国际博览中心",
+      "start": "2026-11-19",
+      "end": "2026-11-21",
+      "kind": "旗舰大会",
+      "purpose": "学习参会",
+      "priority": "观察",
+      "organizer": "江苏省人民政府、国际智能制造联盟",
+      "organizerType": "政府",
+      "cadence": "年度品牌",
+      "recurrence": "世界智能制造大会年度举办，本届为第11届智博会",
+      "scale": "科技日报：1场主会、10余场主题活动、约30场配套活动，展览5万平方米、展商400余家",
+      "summary": "AI赋能制造业的大型政府主办展会与大会，含智能工厂成果发布、具身机器人与供需对接。",
+      "relevance": "研究判断：AI教培含量低，偏制造业企业落地；适合了解江苏制造企业对AI的需求和地方政府推动方向。",
+      "observe": "观察政府主办大会的配套活动结构与对接会形式。",
+      "url": "https://www.stdaily.com/web/gdxw/2026-10/27/content_603630.html",
+      "registrationUrl": null,
+      "registrationStatus": "未找到官方观众登记入口；第三方展会站称线上实名预登记，未核实。",
+      "deadline": "未公开",
+      "price": "未公开",
+      "dateEvidence": "科技日报10/27、新浪财经10/28报道均写11月19—21日在南京国际博览中心；未找到大会官网，按媒体佐证。",
+      "sources": [
+        {
+          "title": "科技日报：2026世界智能制造大会预告",
+          "url": "https://www.stdaily.com/web/gdxw/2026-10/27/content_603630.html"
+        },
+        {
+          "title": "新浪财经：世界智能制造大会将于南京举办",
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwttsf9740389.shtml"
+        }
+      ],
+      "verification": "媒体佐证",
+      "regState": "待确认",
+      "regType": "E",
+      "regNote": "未查到观众登记入口与截止",
+      "kindOld": "旗舰大会",
+      "heat": 3,
+      "heatEvidence": "科技日报、新浪财经报道；展览5万平方米、展商400余家（2026-11-09查）",
+      "people": 50000,
+      "peopleBasis": "第三方展会站（聚展网）写观众约5万人，来源待核",
+      "gradeScore": 10.5,
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数约50000人3分 + 会期3天1.5分 + 政府主办1分 = 10.5分 → 旗舰大会"
+    },
+    {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-cn-06",
+      "region": "中国大陆",
+      "name": "2026非凡大赏·北京·AI创造者大会",
+      "city": "北京",
+      "venue": "北京维景国际大酒店（朝阳区北三环东路2号）",
+      "start": "2026-11-19",
+      "end": "2026-11-20",
+      "kind": "行业峰会",
+      "purpose": "结识人脉",
+      "priority": "按需",
+      "organizer": "非凡产研",
+      "organizerType": "企业",
+      "cadence": "系列活动",
+      "recurrence": "非凡产研“非凡大赏”系列，主办方在活动行已办9场；届次未公开",
+      "scale": "页面写约1000余人；活动行显示751人报名",
+      "summary": "Day1讲个人Agent、Skill与一人公司，颁发CHINA AI 100与AI OPC 100；Day2讲智能硬件与AI出海，下午DemoDay。",
+      "relevance": "研究判断：“个人Agent＋一人公司”与我们的AI培训受众高度重合，适合看创作者/OPC群体的需求与话术。",
+      "observe": "观察免费大会如何用榜单与DemoDay吸引创业者、晚宴另售的分层方式。",
+      "url": "https://www.huodongxing.com/event/1883515346500",
+      "registrationUrl": "https://www.huodongxing.com/event/1883515346500",
+      "registrationStatus": "活动行写“免费报名，无需审核”，名额满后可能提前关闭；未提交报名。",
+      "deadline": "未公开",
+      "price": "免费（晚宴另售，未核实）",
+      "dateEvidence": "活动行正文写2026年11月19日—20日，每天09:00—17:00。",
+      "sources": [
+        {
+          "title": "活动行：2026非凡大赏·北京·AI创造者大会",
+          "url": "https://www.huodongxing.com/event/1883515346500"
+        }
+      ],
+      "verification": "本轮平台核实",
+      "regState": "开放",
+      "regType": "B",
+      "regNote": "免费，满额可能提前关闭",
+      "kindOld": "行业峰会",
+      "heat": 2,
+      "heatEvidence": "活动行浏览约3.2万（2026-11-09查）",
+      "people": 1000,
+      "peopleBasis": "活动行页面写约1000余人；本届751人报名",
+      "gradeScore": 6,
+      "gradeWhy": "品牌一般1分 + 热度2/5 + 人数约1000人2分 + 会期2天1分 = 6分 → 行业峰会"
+    },
+    {
       "region": "台湾",
       "end": "2026-11-21",
       "kind": "旗舰大会",
@@ -3593,6 +3789,53 @@
       "gradeWhy": "品牌知名2分 + 热度4/5 + 人数约55000人3分 + 会期3天1.5分 = 10.5分 → 旗舰大会"
     },
     {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-cn-08",
+      "region": "中国大陆",
+      "name": "2026第八届亿邦产业互联网年会暨首届产业智能体大会",
+      "city": "北京",
+      "venue": "北京朝阳国贸大酒店",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "kind": "行业峰会",
+      "purpose": "学习参会",
+      "priority": "观察",
+      "organizer": "亿邦动力",
+      "organizerType": "媒体",
+      "cadence": "年度品牌",
+      "recurrence": "亿邦产业互联网年会第8届，产业智能体大会为首届",
+      "scale": "页面未公布规模；活动行显示311人报名",
+      "summary": "主题“AI与出海带来的模态进化”，聚焦产业智能体落地、AI供应链与产业出海，含年度报告和闭门会。",
+      "relevance": "研究判断：偏B2B产业与供应链，可了解“产业智能体”在传统企业的落地案例。",
+      "observe": "观察“年会＋首届子大会”的品牌延伸方式。",
+      "url": "https://www.huodongxing.com/event/4884985528600",
+      "registrationUrl": "https://www.huodongxing.com/event/4884985528600",
+      "registrationStatus": "活动行显示“立即报名”；未提交报名。",
+      "deadline": "未公开",
+      "price": "CNY 0—9800（多档），支持退款",
+      "dateEvidence": "活动行正文写11/20（周五）。活动行页面顶部钟点有约7小时偏移，日期可信，钟点以主办通知为准。",
+      "sources": [
+        {
+          "title": "活动行：亿邦产业互联网年会暨产业智能体大会",
+          "url": "https://www.huodongxing.com/event/4884985528600"
+        }
+      ],
+      "verification": "本轮平台核实",
+      "regState": "开放",
+      "regType": "B",
+      "regNote": "无公开截止",
+      "kindOld": "行业峰会",
+      "heat": 2,
+      "heatEvidence": "活动行浏览约2.0万，主办方粉丝约1.6万；第8届（2026-11-09查）",
+      "people": 311,
+      "peopleBasis": "活动行显示311人报名",
+      "gradeScore": 5,
+      "gradeWhy": "品牌知名2分 + 热度2/5 + 人数约311人1分 + 会期1天0分 = 5分 → 行业峰会"
+    },
+    {
       "id": "cn-hongqiao-tech-2026",
       "region": "中国大陆",
       "name": "首届虹桥国际科技周2026",
@@ -3642,6 +3885,153 @@
       "peopleBasis": "澎湃新闻9月28日通气会报道：展面约5万㎡，预计3万+专业观众",
       "gradeScore": 11.5,
       "gradeWhy": "品牌头部3分 + 热度4/5 + 人数约30000人3分 + 会期3天1.5分 = 11.5分 → 旗舰大会"
+    },
+    {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "报名截止（审核制）",
+      "regClose": "2026-11-16",
+      "id": "W-20261109-tw-03",
+      "region": "台湾",
+      "name": "智慧工厂论坛 桃园场「从自动化到自主化：打造韧性产线」",
+      "city": "桃园",
+      "venue": "桃园尊爵大饭店3楼国际厅",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "kind": "小型交流",
+      "purpose": "学习参会",
+      "priority": "观察",
+      "organizer": "DIGITIMES",
+      "organizerType": "媒体",
+      "cadence": "系列活动",
+      "recurrence": "DIGITIMES“智慧工厂论坛”系列的桃园场，届次未公开",
+      "scale": "页面未公布总名额，额满即止；约12场演讲加技术展示区",
+      "summary": "制造业AI论坛，含“企业AI Agent应用实务”（元智大学）、AI排程、具身机器人与智慧厂区。",
+      "relevance": "研究判断：偏制造业，其中企业AI Agent实务一节可作为企业智能体落地案例参考。",
+      "observe": "观察媒体主办的免费审核制论坛如何组合厂商演讲与展示区。",
+      "url": "https://www.digitimes.com.tw/seminar/DForum_20261120",
+      "registrationUrl": "https://www.digitimes.com.tw/seminar/DForum_20261120",
+      "registrationStatus": "免费，审核制，不开放现场报名；未提交报名。",
+      "deadline": "2026-11-16（主办可提前或延后）",
+      "price": "免费",
+      "dateEvidence": "DIGITIMES活动页写2026年11月20日（五），桃园尊爵大饭店3楼国际厅，报名截止2026年11月16日。",
+      "sources": [
+        {
+          "title": "DIGITIMES：智慧工厂论坛桃园场",
+          "url": "https://www.digitimes.com.tw/seminar/DForum_20261120"
+        }
+      ],
+      "verification": "本轮官方核实",
+      "regState": "需申请",
+      "regType": "A",
+      "regNote": "报名截止11/16，审核制",
+      "kindOld": "小型交流",
+      "heat": 1,
+      "heatEvidence": "DIGITIMES系列论坛，桃园市副市长出席；未查到报名人数（2026-11-09查）",
+      "people": null,
+      "peopleBasis": "页面未公布名额",
+      "gradeScore": 3,
+      "gradeWhy": "品牌知名2分 + 热度1/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流",
+      "reviewKind": "apply"
+    },
+    {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-cn-01",
+      "region": "中国大陆",
+      "name": "明略科技 2026 AI·营销大会「AI·落地有声」",
+      "city": "上海",
+      "venue": "上海中心大厦大宴会厅二层（浦东银城中路501号）",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "kind": "行业峰会",
+      "purpose": "学习参会",
+      "priority": "按需",
+      "organizer": "明略科技",
+      "organizerType": "企业",
+      "cadence": "年度品牌",
+      "recurrence": "明略科技年度大会第10届，原「营销科学大会」今年更名",
+      "scale": "页面未公布规模；活动行显示460人报名",
+      "summary": "主题是营销Agent从试点走向规模化，讨论企业级Marketing Agent系统的搭建与落地。",
+      "relevance": "研究判断：偏品牌营销，但“企业级Agent落地”是我们企业智能体业务的直接参照，可看大公司如何向客户讲Agent价值。",
+      "observe": "观察厂商大会如何把产品发布包装成行业议题、免费票如何筛选参会者。",
+      "url": "https://www.huodongxing.com/event/7881963324600",
+      "registrationUrl": "https://www.huodongxing.com/event/7881963324600",
+      "registrationStatus": "活动行显示“立即报名”，免费；未提交报名，余位未核。",
+      "deadline": "未公开",
+      "price": "免费",
+      "dateEvidence": "活动行页面显示11/25（周三），地点上海中心大宴会厅二层；界面新闻稿同写11月25日上海。活动行页面顶部钟点有约7小时偏移，日期可信，钟点以主办通知为准。",
+      "sources": [
+        {
+          "title": "活动行：AI·落地有声 - 2026 AI·营销大会",
+          "url": "https://www.huodongxing.com/event/7881963324600"
+        },
+        {
+          "title": "界面新闻：明略科技AI·营销大会预告",
+          "url": "https://m.jiemian.com/article/15193975.html"
+        }
+      ],
+      "verification": "本轮平台核实",
+      "regState": "开放",
+      "regType": "B",
+      "regNote": "免费报名，无公开截止",
+      "kindOld": "行业峰会",
+      "heat": 2,
+      "heatEvidence": "活动行浏览约2.1万、收藏516、上海总榜第2；明略科技年度大会第10届（2026-11-09查）",
+      "people": 460,
+      "peopleBasis": "活动行显示460人报名（11/9）",
+      "gradeScore": 5,
+      "gradeWhy": "品牌知名2分 + 热度2/5 + 人数约460人1分 + 会期1天0分 = 5分 → 行业峰会"
+    },
+    {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-tw-01",
+      "region": "台湾",
+      "name": "2026创新论坛「AI进化企业竞争力」（经济日报×远传）",
+      "city": "台北",
+      "venue": "台北国际会议中心（TICC）101室",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "kind": "小型交流",
+      "purpose": "学习参会",
+      "priority": "按需",
+      "organizer": "经济日报、远传电信",
+      "organizerType": "媒体",
+      "cadence": "单场",
+      "recurrence": "页面未写届次",
+      "scale": "页面未公布人数，写明座位有限",
+      "summary": "企业导入AI的案例论坛：企业内部AI新动能、AI落地案例、AI资安与饭店AI化，压轴为企业导入AI实战对谈。",
+      "relevance": "研究判断：台湾大型企业讲AI落地的免费论坛，可了解台湾企业端对AI导入的痛点与语言。",
+      "observe": "观察审核制邀约入场如何筛选产业人士、公务人员学习时数的加值设计。",
+      "url": "https://money.udn.com/ACT/2026/innovation5G/index.html",
+      "registrationUrl": "https://money.udn.com/ACT/2026/innovation5G/index.html",
+      "registrationStatus": "免费，线上预约审核制，主办审核后寄入场凭证；未提交报名。",
+      "deadline": "未公开（主办于11/24中午前寄送入场凭证）",
+      "price": "免费",
+      "dateEvidence": "官方活动页写2026.11.25，台北国际会议中心101室。",
+      "sources": [
+        {
+          "title": "经济日报：2026创新论坛活动页",
+          "url": "https://money.udn.com/ACT/2026/innovation5G/index.html"
+        }
+      ],
+      "verification": "本轮官方核实",
+      "regState": "需申请",
+      "regType": "D",
+      "regNote": "审核制，11/24中午前寄入场凭证",
+      "kindOld": "小型交流",
+      "heat": 1,
+      "heatEvidence": "经济日报与远传主办，四家金融/航运集团协办；未查到报名人数（2026-11-09查）",
+      "people": null,
+      "peopleBasis": "页面未公布人数",
+      "gradeScore": 3,
+      "gradeWhy": "品牌知名2分 + 热度1/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流",
+      "reviewKind": "apply"
     },
     {
       "id": "cn-chtf-2026",
@@ -3740,6 +4130,53 @@
       "gradeWhy": "品牌社群0.5分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 2.5分 → 小型交流"
     },
     {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-cn-03",
+      "region": "中国大陆",
+      "name": "SEE Conf 2026 蚂蚁终端体验科技大会",
+      "city": "杭州",
+      "venue": "蚂蚁A空间",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "kind": "小型交流",
+      "purpose": "学习参会",
+      "priority": "优先",
+      "organizer": "蚂蚁集团",
+      "organizerType": "企业",
+      "cadence": "年度品牌",
+      "recurrence": "蚂蚁体验技术年度大会，2025届同在杭州蚂蚁A空间",
+      "scale": "官网未公布人数；设主会场与AI创新体验、AI工程实践、AI新交互与多端、SEE Next等专场及展台",
+      "summary": "主题“创造力复兴”，讲AI时代的产品体验与工程实践，涵盖生成式UI、端云协同Agent架构、AI Coding与AI办公产品。",
+      "relevance": "研究判断：杭州本地、票价低，内容贴近“人人都能用AI做产品”，适合团队成员学习，也可接触蚂蚁/阿里系AI产品团队。",
+      "observe": "观察技术大会如何用展台展示自家AI产品、早鸟票与议程公开节奏。",
+      "url": "https://seeconf.antgroup.com/",
+      "registrationUrl": "https://seeconf.antgroup.com/",
+      "registrationStatus": "官网显示“立即购票”，早鸟票在售；未购票。",
+      "deadline": "未公开总截止；早鸟价约剩3天（11/9查看时倒计时）",
+      "price": "CNY 99（早鸟）/ CNY 199（原价）",
+      "dateEvidence": "官网首屏写“杭州·蚂蚁A空间 / 2026.11.28”，议程9:30开始。",
+      "sources": [
+        {
+          "title": "SEE Conf 2026 官网",
+          "url": "https://seeconf.antgroup.com/"
+        }
+      ],
+      "verification": "本轮官方核实",
+      "regState": "开放",
+      "regType": "B",
+      "regNote": "早鸟价约11/12前后结束，之后原价199",
+      "kindOld": "行业峰会",
+      "heat": 2,
+      "heatEvidence": "蚂蚁集团年度技术大会，嘉宾含蚂蚁CTO等；未查到报名人数（2026-11-09查）",
+      "people": null,
+      "peopleBasis": "官网未公布人数",
+      "gradeScore": 4,
+      "gradeWhy": "品牌知名2分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 4分 → 小型交流"
+    },
+    {
       "id": "cn-njsd-2026",
       "region": "中国大陆",
       "name": "第十二届NJSD软件开发者大会·AI主题会议（AI NATIVE 2026）",
@@ -3785,6 +4222,108 @@
       "peopleBasis": "活动页写明预计规模1200-1500人；约54位技术演讲嘉宾",
       "gradeScore": 8,
       "gradeWhy": "品牌知名2分 + 热度3/5 + 人数约1500人2分 + 会期2天1分 = 8分 → 行业峰会；人工调整：社区办的技术大会，1500人是整个AI NATIVE系列的预计数，不是本场"
+    },
+    {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-cn-05",
+      "region": "中国大陆",
+      "name": "极客公园创新大会 IF 2027",
+      "city": "北京",
+      "venue": "北京798艺术区（另有751图书馆等“小场深谈”场地）",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "kind": "行业峰会",
+      "purpose": "学习参会",
+      "priority": "按需",
+      "organizer": "极客公园",
+      "organizerType": "媒体",
+      "cadence": "年度品牌",
+      "recurrence": "极客公园年度创新大会，本届为第17届",
+      "scale": "官方未公布人数；称门票几乎每年会前售罄",
+      "summary": "主题“Revaluation 价值，另有答案”，涉及Personal AI、AI创作、具身智能、硬件与AI实践。",
+      "relevance": "研究判断：科技创业圈影响力大的年度大会，适合观察AI产品创新风向和创业者生态；在北京，按需参加。",
+      "observe": "观察主舞台＋多场小场深谈的分层形式、限量早鸟票的售卖节奏。",
+      "url": "http://www.geekpark.net/news/373553",
+      "registrationUrl": null,
+      "registrationStatus": "官方称门票11月初开售、有限量早鸟，本轮未找到购票页。",
+      "deadline": "未公开",
+      "price": "未公开",
+      "dateEvidence": "极客公园11/5官方文章写“今年12月5日—6日，北京798艺术区”。",
+      "sources": [
+        {
+          "title": "极客公园：IF 2027首批嘉宾揭晓",
+          "url": "http://www.geekpark.net/news/373553"
+        },
+        {
+          "title": "极客公园：IF 2027购票预告",
+          "url": "http://www.geekpark.net/news/372300"
+        }
+      ],
+      "verification": "本轮官方核实",
+      "regState": "待确认",
+      "regType": "E",
+      "regNote": "购票页未找到",
+      "kindOld": "行业峰会",
+      "heat": 3,
+      "heatEvidence": "第17届，官方称门票几乎每年会前售罄；往届活动行页面浏览约3.7万（2026-11-09查）",
+      "people": null,
+      "peopleBasis": "官方未公布人数",
+      "gradeScore": 6,
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期2天1分 = 6分 → 行业峰会"
+    },
+    {
+      "dateHint": null,
+      "checked": "2026-11-09",
+      "regCloseLabel": "",
+      "regClose": null,
+      "id": "W-20261109-cn-04",
+      "region": "中国大陆",
+      "name": "MEET2027 智能未来大会（量子位）",
+      "city": "北京",
+      "venue": "北京东城（报名后可查看详细地址）",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "kind": "行业峰会",
+      "purpose": "学习参会",
+      "priority": "按需",
+      "organizer": "量子位",
+      "organizerType": "媒体",
+      "cadence": "年度品牌",
+      "recurrence": "量子位年度大会，本届为第8届",
+      "scale": "量子位称每年上千名现场从业者；活动行显示639人报名",
+      "summary": "量子位年度AI趋势报告与年度榜单发布，加AI产业主题峰会。",
+      "relevance": "研究判断：头部AI媒体年度大会，适合把握年度趋势与AI公司格局；在北京，按需参加。",
+      "observe": "观察“榜单征集＋趋势报告＋峰会”如何带动报名与媒体传播。",
+      "url": "https://www.qbitai.com/2026/10/506609.html",
+      "registrationUrl": "https://www.huodongxing.com/event/4883534689300",
+      "registrationStatus": "活动行显示“立即报名”；未提交报名。",
+      "deadline": "未公开（11/16为榜单征集截止，不是观众报名截止）",
+      "price": "CNY 0—9999（多档）；开始24小时前可退，收10%手续费",
+      "dateEvidence": "量子位10月文章写12月9日；活动行显示12/09（周三）。活动行页面顶部钟点有约7小时偏移，日期可信，钟点以主办通知为准。",
+      "sources": [
+        {
+          "title": "量子位：MEET2027智能未来大会",
+          "url": "https://www.qbitai.com/2026/10/506609.html"
+        },
+        {
+          "title": "活动行：MEET2027报名页",
+          "url": "https://www.huodongxing.com/event/4883534689300"
+        }
+      ],
+      "verification": "本轮官方核实",
+      "regState": "开放",
+      "regType": "B",
+      "regNote": "无公开报名截止",
+      "kindOld": "行业峰会",
+      "heat": 3,
+      "heatEvidence": "活动行浏览约2.2万；第8届（2026-11-09查）",
+      "people": 1000,
+      "peopleBasis": "量子位称往届每年上千名现场从业者；活动行本届639人报名",
+      "gradeScore": 7,
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数约1000人2分 + 会期1天0分 = 7分 → 行业峰会"
     },
     {
       "region": "台湾",
@@ -3972,13 +4511,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 1,
       "heatEvidence": "活动行页浏览量2112，主办方为个人工作室粉丝60 https://www.huodongxing.com/event/7882368537500",
       "people": null,
       "peopleBasis": "页面未公布",
       "gradeScore": 2,
-      "gradeWhy": "品牌一般1分 + 热度1/5 + 人数未公开0分 + 会期1天0分 = 2分 → 小型交流"
+      "gradeWhy": "品牌一般1分 + 热度1/5 + 人数未公开0分 + 会期1天0分 = 2分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "E039",
@@ -4017,13 +4556,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 2,
       "heatEvidence": "活动行页浏览量24265、点赞142，主办方赛亚创盟粉丝3235，共192场（每周五例行） https://www.huodongxing.com/event/5858868706311",
       "people": null,
       "peopleBasis": "页面未公布",
       "gradeScore": 3,
-      "gradeWhy": "品牌一般1分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流"
+      "gradeWhy": "品牌一般1分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "E034",
@@ -4062,13 +4601,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 1,
       "heatEvidence": "活动行页浏览量1621，点赞22，主办方博硕教育粉丝374；实为MBA招生宣讲，无外部讨论 https://www.huodongxing.com/event/1882226191511",
       "people": null,
       "peopleBasis": "页面未公布",
       "gradeScore": 2,
-      "gradeWhy": "品牌一般1分 + 热度1/5 + 人数未公开0分 + 会期1天0分 = 2分 → 小型交流"
+      "gradeWhy": "品牌一般1分 + 热度1/5 + 人数未公开0分 + 会期1天0分 = 2分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "E043",
@@ -4107,13 +4646,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 3,
       "heatEvidence": "活动行页浏览量110811、点赞5106，主办方SGDA粉丝8826 https://www.huodongxing.com/event/6870544316200（页面热度高，行业垂直）",
       "people": null,
       "peopleBasis": "页面未公布",
       "gradeScore": 5,
-      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期1天0分 = 5分 → 行业峰会"
+      "gradeWhy": "品牌知名2分 + 热度3/5 + 人数未公开0分 + 会期1天0分 = 5分 → 行业峰会",
+      "kindOld": "小型交流"
     },
     {
       "id": "E047",
@@ -4152,13 +4691,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 1,
       "heatEvidence": "活动行页浏览量3762，主办方个人刘显军粉丝52，仅3场 https://www.huodongxing.com/event/8872596394100；项目分成对接性质",
       "people": null,
       "peopleBasis": "页面未公布",
       "gradeScore": 2,
-      "gradeWhy": "品牌一般1分 + 热度1/5 + 人数未公开0分 + 会期1天0分 = 2分 → 小型交流"
+      "gradeWhy": "品牌一般1分 + 热度1/5 + 人数未公开0分 + 会期1天0分 = 2分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "region": "中国大陆",
@@ -4242,13 +4781,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 2,
       "heatEvidence": "活动行页浏览量8566、点赞162，主办方海豚创演粉丝9971 https://www.huodongxing.com/event/8878075606200；招募类",
       "people": null,
       "peopleBasis": "页面未公布",
       "gradeScore": 3,
-      "gradeWhy": "品牌一般1分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流"
+      "gradeWhy": "品牌一般1分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 3分 → 小型交流",
+      "kindOld": "小型交流"
     },
     {
       "id": "E041",
@@ -4287,13 +4826,13 @@
       "regState": "待确认",
       "regClose": null,
       "regCloseLabel": "",
-      "kindOld": "小型交流",
       "heat": 2,
       "heatEvidence": "活动行页浏览量5492、点赞121，主办方离三刀AI共创社粉丝416 https://www.huodongxing.com/event/5877451431300",
       "people": null,
       "peopleBasis": "页面未公布",
       "gradeScore": 2.5,
-      "gradeWhy": "品牌社群0.5分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 2.5分 → 小型交流"
+      "gradeWhy": "品牌社群0.5分 + 热度2/5 + 人数未公开0分 + 会期1天0分 = 2.5分 → 小型交流",
+      "kindOld": "小型交流"
     }
   ]
 }
