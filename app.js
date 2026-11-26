@@ -3,8 +3,10 @@ const $=id=>document.getElementById(id), D=window.EVENT_DATA, EVENTS=D.events;
 const params=new URLSearchParams(location.search), region=params.get('region')==='taiwan'?'台湾':'中国大陆';
 const np=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
 const TODAY=`${np.year}-${np.month}-${np.day}`;
-const HOME_MONTH=np.year==='2026'?Number(np.month)-1:9;
-const S={sel:null,month:HOME_MONTH,view:'month',day:null,q:'',saved:false,cities:new Set(),tiers:new Set(),purposes:new Set(),regs:new Set(),dls:new Set()};
+const HOME_YEAR=Number(np.year),HOME_MONTH=Number(np.month)-1;
+const YEARS=EVENTS.flatMap(e=>[e.start,e.end]).filter(Boolean).map(d=>Number(d.slice(0,4)));
+const MIN_YEAR=Math.min(HOME_YEAR,...YEARS),MAX_YEAR=Math.max(HOME_YEAR,...YEARS);
+const S={sel:null,year:HOME_YEAR,month:HOME_MONTH,view:'month',day:null,q:'',saved:false,cities:new Set(),tiers:new Set(),purposes:new Set(),regs:new Set(),dls:new Set()};
 let personal={};try{const r=JSON.parse(localStorage.getItem('tianheng-events-2026')||'{}');if(r&&typeof r==='object'&&!Array.isArray(r))personal=r;}catch{}
 let lastFocus=null;
 
@@ -13,7 +15,7 @@ const safeUrl=u=>{try{const x=new URL(u);return x.protocol==='https:'?x.href:'#'
 const ext=(label,url,cls='btn')=>`<a class="${cls}" href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
 const T={'旗舰大会':'flag','行业峰会':'sum','小型交流':'small'}, tcls=e=>'t-'+(T[e.kind]||'small');
 const PURPOSE={'学习参会':'去学习','结识人脉':'去结识人脉','办会参考':'去借鉴办会'};
-const iso=(m,d)=>`2026-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+const iso=(m,d)=>`${S.year}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
 const md=d=>d?`${Number(d.slice(5,7))}月${Number(d.slice(8,10))}日`:'待确认';
 const dayDiff=(a,b)=>Math.round((Date.parse(b+'T00:00:00Z')-Date.parse(a+'T00:00:00Z'))/864e5);
 const WK=['周日','周一','周二','周三','周四','周五','周六'];
@@ -67,7 +69,9 @@ function pass(e){
 }
 const filtered=()=>regEvents.filter(pass);
 const onDate=(e,d)=>Boolean(e.start&&e.start<=d&&e.end>=d);
-const inMonth=(e,m)=>e.start&&e.start<=iso(m,new Date(2026,m+1,0).getDate())&&e.end>=iso(m,1);
+const inMonth=(e,m)=>e.start&&e.start<=iso(m,new Date(S.year,m+1,0).getDate())&&e.end>=iso(m,1);
+const inYear=e=>e.start&&e.start<=`${S.year}-12-31`&&e.end>=`${S.year}-01-01`;
+function shiftMonth(n){let m=S.month+n,y=S.year;if(m<0){m=11;y--;}if(m>11){m=0;y++;}if(y<MIN_YEAR||y>MAX_YEAR)return;S.year=y;S.month=m;}
 
 /* ---------- chips ---------- */
 function chipGroup(id,items,set,cls=()=>''){
@@ -99,7 +103,7 @@ function renderSoon(es){
 
 /* ---------- calendar ---------- */
 function defaultDay(es){
-  if(S.month===HOME_MONTH&&np.year==='2026')return TODAY;
+  if(S.month===HOME_MONTH&&S.year===HOME_YEAR)return TODAY;
   const first=es.filter(e=>inMonth(e,S.month)).map(e=>e.start<iso(S.month,1)?iso(S.month,1):e.start).sort()[0];
   return first||iso(S.month,1);
 }
@@ -108,12 +112,12 @@ function evChip(e,d){
   return `<div class="ev ${tcls(e)} ${isPast(e)?'past':''} ${cont?'cont':''}" title="${esc(e.name)} · ${esc(e.city)}"><i class="dot ${r.k}"></i><span class="n"><b>${esc(e.city)}</b>${esc(e.name)}</span></div>`;
 }
 function renderCalendar(es){
-  $('monthTitle').textContent=S.view==='year'?'2026 年全览':`2026 年 ${S.month+1} 月`;
-  $('prev').disabled=S.view==='year'||S.month===0;$('next').disabled=S.view==='year'||S.month===11;
+  $('monthTitle').textContent=S.view==='year'?`${S.year} 年全览`:`${S.year} 年 ${S.month+1} 月`;
+  $('prev').disabled=S.view==='year'?S.year<=MIN_YEAR:S.year<=MIN_YEAR&&S.month===0;$('next').disabled=S.view==='year'?S.year>=MAX_YEAR:S.year>=MAX_YEAR&&S.month===11;
   $('monthView').hidden=S.view!=='month';$('yearView').hidden=S.view!=='year';$('monthRail').hidden=S.view!=='month';
   document.querySelectorAll('#viewSeg button').forEach(b=>b.classList.toggle('on',b.dataset.view===S.view));
   $('monthRail').innerHTML=Array.from({length:12},(_,m)=>{const n=es.filter(e=>inMonth(e,m)).length;return `<button data-month="${m}" class="${m===S.month?'on':''}" aria-label="${m+1}月，${n}场">${m+1}月<i>${n||'·'}</i></button>`}).join('');
-  const first=(new Date(2026,S.month,1).getDay()+6)%7,days=new Date(2026,S.month+1,0).getDate(),cells=Math.ceil((first+days)/7)*7;
+  const first=(new Date(S.year,S.month,1).getDay()+6)%7,days=new Date(S.year,S.month+1,0).getDate(),cells=Math.ceil((first+days)/7)*7;
   const weeks=[];
   for(let w=0;w<cells/7;w++){const ds=[];for(let c=0;c<7;c++){const n=w*7+c-first+1;ds.push(n>0&&n<=days?iso(S.month,n):null);}weeks.push(ds);}
   $('calendar').innerHTML=weeks.map(ds=>{
@@ -134,10 +138,10 @@ function renderCalendar(es){
     return `<div class="week">${cellHtml}${barHtml}</div>`;
   }).join('');
   $('yearView').innerHTML=Array.from({length:12},(_,m)=>{
-    const off=(new Date(2026,m,1).getDay()+6)%7,total=new Date(2026,m+1,0).getDate();
+    const off=(new Date(S.year,m,1).getDay()+6)%7,total=new Date(S.year,m+1,0).getDate();
     return `<button class="mm" data-month="${m}" aria-label="查看${m+1}月"><div class="mm-t">${m+1}月<small>${es.filter(e=>inMonth(e,m)).length} 场</small></div><div class="mg">${['一','二','三','四','五','六','日'].map(x=>`<span class="w">${x}</span>`).join('')}${'<span></span>'.repeat(off)}${Array.from({length:total},(_,i)=>{const date=iso(m,i+1),hit=es.filter(e=>onDate(e,date)),top=hit.find(e=>e.kind==='旗舰大会')||hit.find(e=>e.kind==='行业峰会')||hit[0];return `<span class="md ${top?'h-'+T[top.kind]:''} ${date===TODAY?'today':''}">${i+1}</span>`}).join('')}</div></button>`}).join('');
-  const count=es.filter(e=>S.view==='year'?e.start:inMonth(e,S.month)).length,pend=es.filter(e=>!e.start).length;
-  $('calendarCaption').textContent=`${S.view==='year'?'全年':`${S.month+1}月`} ${count} 场已定会期 · 点任意一天，旁边面板显示当天活动的详细信息 · 另有 ${pend} 条会期待确认的线索未排入日历 · 时间均为 UTC+8`;
+  const count=es.filter(e=>S.view==='year'?inYear(e):inMonth(e,S.month)).length,pend=es.filter(e=>!e.start).length;
+  $('calendarCaption').textContent=`${S.view==='year'?`${S.year}年全年`:`${S.month+1}月`} ${count} 场已定会期 · 点任意一天，旁边面板显示当天活动的详细信息 · 另有 ${pend} 条会期待确认的线索未排入日历 · 时间均为 UTC+8`;
 }
 
 /* ---------- day panel ---------- */
@@ -173,9 +177,9 @@ function renderList(es){
   let scope=$('listScope').value;
   const auto=filtering&&scope==='month';
   if(auto)scope='year';
-  const rows=es.filter(e=>scope==='pending'?!e.start:scope==='past'?isPast(e):scope==='upcoming'?e.start&&e.end>=TODAY:scope==='year'?e.start:inMonth(e,S.month));
+  const rows=es.filter(e=>scope==='pending'?!e.start:scope==='past'?isPast(e):scope==='upcoming'?e.start&&e.end>=TODAY:scope==='year'?inYear(e):inMonth(e,S.month));
   rows.sort((a,b)=>(a.start||'9999').localeCompare(b.start||'9999')||a.name.localeCompare(b.name,'zh'));
-  $('listTitle').textContent=auto?'筛选结果 · 全年已定会期':{pending:'待确认活动线索',past:'往期回顾',upcoming:'今天起的全部活动',year:'2026 · 全年活动',month:`${S.month+1}月 · 全部活动`}[scope];
+  $('listTitle').textContent=auto?`筛选结果 · ${S.year}年已定会期`:{pending:'待确认活动线索',past:'往期回顾',upcoming:'今天起的全部活动',year:`${S.year} · 全年活动`,month:`${S.month+1}月 · 全部活动`}[scope];
   $('listCaption').textContent=`${rows.length} 条符合当前筛选。${scope==='pending'?'以下是线索，不是可直接安排出行的会期。':'往期仅供回顾，不表示团队曾参加。'}`;
   $('eventList').innerHTML=rows.length?rows.map(card).join(''):`<div class="empty">这里没有匹配的活动；空白只表示尚未收录，不表示没有活动。<br><button class="pill" id="showUp">看今天起全部</button><button class="pill" id="resetEmpty">清除筛选</button></div>`;
 }
@@ -236,7 +240,7 @@ document.addEventListener('click',ev=>{
   else if(open)openDetail(open.dataset.open);
   else if(save)toggleSave(save.dataset.save);
   else if(mo){S.month=Number(mo.dataset.month);S.view='month';S.day=null;$('listScope').value='month';render();}
-  else if(day){const d=day.dataset.day;S.month=Number(d.slice(5,7))-1;S.day=d;render();if(matchMedia('(max-width:1180px)').matches)$('dayPanel').scrollIntoView({behavior:'smooth',block:'start'});}
+  else if(day){const d=day.dataset.day;S.year=Number(d.slice(0,4));S.month=Number(d.slice(5,7))-1;S.day=d;render();if(matchMedia('(max-width:1180px)').matches)$('dayPanel').scrollIntoView({behavior:'smooth',block:'start'});}
   else if(v){S.view=v.dataset.view;S.day=null;$('listScope').value=S.view==='year'?'year':'month';render();}
   else if(t.id==='showUp'){$('listScope').value='upcoming';render();}
   else if(t.id==='resetEmpty')resetAll();
@@ -246,9 +250,9 @@ $('search').addEventListener('input',()=>{S.q=$('search').value.trim().toLowerCa
 $('onlySaved').addEventListener('input',()=>{S.saved=$('onlySaved').checked;render();});
 $('reset').addEventListener('click',resetAll);
 $('listScope').addEventListener('change',render);
-$('prev').addEventListener('click',()=>{if(S.month>0)S.month--;S.day=null;$('listScope').value='month';render();});
-$('next').addEventListener('click',()=>{if(S.month<11)S.month++;S.day=null;$('listScope').value='month';render();});
-$('today').addEventListener('click',()=>{S.month=HOME_MONTH;S.view='month';S.day=null;$('listScope').value='month';render();});
+$('prev').addEventListener('click',()=>{if(S.view==='year'){if(S.year>MIN_YEAR)S.year--;}else{shiftMonth(-1);$('listScope').value='month';}S.day=null;render();});
+$('next').addEventListener('click',()=>{if(S.view==='year'){if(S.year<MAX_YEAR)S.year++;}else{shiftMonth(1);$('listScope').value='month';}S.day=null;render();});
+$('today').addEventListener('click',()=>{S.year=HOME_YEAR;S.month=HOME_MONTH;S.view='month';S.day=null;$('listScope').value='month';render();});
 $('closeDialog').addEventListener('click',()=>$('detailDialog').close());
 $('detailDialog').addEventListener('click',ev=>{if(ev.target===$('detailDialog'))$('detailDialog').close();});
 $('detailDialog').addEventListener('close',()=>{lastFocus?.isConnected&&lastFocus.focus();});
